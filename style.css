@@ -1,0 +1,39 @@
+
+
+.avatar-container img{
+ width: 200px;
+ background: linear-gradient(45deg, rgb(0, 0, 46), rgb(0, 89, 255), rgb(0, 48, 49)
+ );
+ border-radius: 10px;
+
+}
+
+.card{
+    color: white;
+    background-color: rgb(0, 10, 54);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    width: 300px;
+}
+
+#profileDesc, #profileName {
+    margin: 0;
+
+}
+#profileName {
+
+    font-size: 30px;
+    font-weight: bold;
+}
+#profileDesc {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #cccccc;
+}
